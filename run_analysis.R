@@ -50,5 +50,6 @@ colnames(meanstddata) <- gsub("^t", "TimeDomain", colnames(meanstddata))
 ag<- aggregate(.~LabelofActivity+subject, meanstddata, mean, na.rm=TRUE)
 #writes into a second file
 write.csv(ag, file = "tidydata.csv", row.names = FALSE)
+print(names(ag))
 
 
