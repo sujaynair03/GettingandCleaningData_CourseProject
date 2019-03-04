@@ -1,4 +1,6 @@
 # GettingandCleaningData_CourseProject
+I added both a csv and txt file for tidy_data
+
 run_analysis.R reads and cleans the data from the UCI HAR dataset. In addition to this, there is another tidy file that has the average for each activity for each subject. Uses the dplyr package.
 
 Outline of code:
